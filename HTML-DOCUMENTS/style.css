@@ -1,0 +1,9 @@
+/* html type selector */
+h1 {
+  color: purple;
+}
+
+/* broswer will use the hierarchy precedent to apply rules */
+#header1 {
+  color: green;
+}

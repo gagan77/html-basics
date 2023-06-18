@@ -1,0 +1,40 @@
+p {
+  color: blue;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: underline red solid 5px;
+}
+
+#latest {
+  background-color: purple;
+}
+
+.navigation {
+  margin: 2px;
+}
+
+p.introduction {
+  margin: 2px;
+}
+
+#blog h1 {
+  color: blue;
+}
+
+#blog > h1 {
+  color: blue;
+}
+
+/* :hover Pseudo-Class */
+
+a:hover {
+  color: orange;
+}
+
+p {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
+}
